@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BD6iojyO0915Ue2heLc6VVh8zN51Aahm8d7kY2wRbsP2MACfTlvEe7BbrFQQfmAbSOoCj1VVhv0DrNAxGUvd0Q==",
+  "dgSpecHash": "0SO3DkFXQ1YPbQE1F8L58alTgxvaIIwK9UIC32qPBWcNF1fN1x0KzfLF8cThkZnd0w0+Qvz3RYBfEMKO2cZvDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\LibraryBookApp.csproj",
+  "projectFilePath": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\LibraryBookApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jbabcock\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jbabcock\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

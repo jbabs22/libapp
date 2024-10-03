@@ -126,6 +126,24 @@ namespace LibraryBookApp.Controllers
 
             return View(book);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var book = await _context.Books.FindAsync(id);
+
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            _context.Books.Remove(book);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index)); // Redirect to Book Inventory after deletion
+        }
+
     }
 }
 

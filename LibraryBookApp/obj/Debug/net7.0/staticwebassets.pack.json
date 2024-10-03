@@ -1,31 +1,31 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\css\\customstyles.css",
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\css\\customstyles.css",
       "PackagePath": "staticwebassets\\css\\customstyles.css"
     },
     {
-      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\books.png",
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\imgs\\books.png",
       "PackagePath": "staticwebassets\\imgs\\books.png"
     },
     {
-      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\digital-inventory.png",
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\imgs\\digital-inventory.png",
       "PackagePath": "staticwebassets\\imgs\\digital-inventory.png"
     },
     {
-      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\donate1.png",
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\imgs\\donate1.png",
       "PackagePath": "staticwebassets\\imgs\\donate1.png"
     },
     {
-      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\home-bg.jpg",
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\imgs\\home-bg.jpg",
       "PackagePath": "staticwebassets\\imgs\\home-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\profile.png",
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\imgs\\profile.png",
       "PackagePath": "staticwebassets\\imgs\\profile.png"
     },
     {
-      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\searchonl2.png",
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\imgs\\searchonl2.png",
       "PackagePath": "staticwebassets\\imgs\\searchonl2.png"
     },
     {

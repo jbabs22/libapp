@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AH44V90WrQqCymlGX9baG+TdYAqHk3faThlQKu9pexk=",
+  "Hash": "xI/nMXK3PTafptKRRnG4DzvinBdsek4oa/7EbN939ng=",
   "Source": "LibraryBookApp",
   "BasePath": "_content/LibraryBookApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "LibraryBookApp\\wwwroot",
       "Source": "LibraryBookApp",
-      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\",
       "BasePath": "_content/LibraryBookApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\css\\customstyles.css",
+      "Identity": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\css\\customstyles.css",
       "SourceId": "LibraryBookApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\",
       "BasePath": "_content/LibraryBookApp",
       "RelativePath": "css/customstyles.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\customstyles.css"
     },
     {
-      "Identity": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\books.png",
+      "Identity": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\imgs\\books.png",
       "SourceId": "LibraryBookApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\",
       "BasePath": "_content/LibraryBookApp",
       "RelativePath": "imgs/books.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\books.png"
     },
     {
-      "Identity": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\digital-inventory.png",
+      "Identity": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\imgs\\digital-inventory.png",
       "SourceId": "LibraryBookApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\",
       "BasePath": "_content/LibraryBookApp",
       "RelativePath": "imgs/digital-inventory.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\digital-inventory.png"
     },
     {
-      "Identity": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\donate1.png",
+      "Identity": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\imgs\\donate1.png",
       "SourceId": "LibraryBookApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\",
       "BasePath": "_content/LibraryBookApp",
       "RelativePath": "imgs/donate1.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\donate1.png"
     },
     {
-      "Identity": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\home-bg.jpg",
+      "Identity": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\imgs\\home-bg.jpg",
       "SourceId": "LibraryBookApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\",
       "BasePath": "_content/LibraryBookApp",
       "RelativePath": "imgs/home-bg.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\home-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\profile.png",
+      "Identity": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\imgs\\profile.png",
       "SourceId": "LibraryBookApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\",
       "BasePath": "_content/LibraryBookApp",
       "RelativePath": "imgs/profile.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\profile.png"
     },
     {
-      "Identity": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\searchonl2.png",
+      "Identity": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\imgs\\searchonl2.png",
       "SourceId": "LibraryBookApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jbabcock\\source\\repos\\libapp\\LibraryBookApp\\wwwroot\\",
       "BasePath": "_content/LibraryBookApp",
       "RelativePath": "imgs/searchonl2.png",
       "AssetKind": "All",

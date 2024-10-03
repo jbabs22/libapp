@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibraryBookApp.Tests
-build_property.ProjectDir = C:\Users\jbabcock\source\repos\LibraryBookApp\LibraryBookApp.Tests\
+build_property.ProjectDir = C:\Users\jbabcock\source\repos\libapp\LibraryBookApp.Tests\

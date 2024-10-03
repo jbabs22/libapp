@@ -41,9 +41,10 @@
                 <td>@book.Author</td>
                 <td>@book.Genre</td>
                 <td>
-                    <form asp-action="Return" asp-route-id="@book.Id" method="post" style="display:inline;">
+                    <form asp-action="Return" asp-controller="Books" asp-route-id="@book.Id" method="post" style="display:inline;">
                         <button type="submit" class="btn btn-danger">Return</button>
                     </form>
+
                 </td>
             </tr>
         }

@@ -123,5 +123,34 @@ namespace LibraryBookApp.Controllers
                 BorrowedBooks = user.BorrowedBooks.ToList()
             });
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Return(int id)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            // Find the book by id
+            var book = await _context.Books.FirstOrDefaultAsync(b => b.Id == id && b.BorrowerId == user.Id);
+
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            // Mark the book as returned
+            book.IsBorrowed = false;
+            book.BorrowerId = null;
+            book.BorrowedDate = null;
+
+            _context.Books.Update(book);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Index");
+        }
+
     }
 }
