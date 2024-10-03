@@ -1,0 +1,26 @@
+@model LibraryBookApp.Models.Book
+
+<h2>@Model.Title</h2>
+
+<p>
+    <strong>Author:</strong> @Model.Author<br />
+    <strong>Genre:</strong> @Model.Genre<br />
+</p>
+
+<h3>Comments</h3>
+<form asp-action="AddComment" method="post">
+    <input type="hidden" name="bookId" value="@Model.Id" />
+    <div class="form-group">
+        <textarea name="commentText" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Comment</button>
+</form>
+
+<ul class="list-unstyled">
+    @foreach (var comment in Model.Comments)
+    {
+        <li>
+            <strong>@comment.User.UserName:</strong> @comment.Text
+        </li>
+    }
+</ul>

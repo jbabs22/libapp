@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\css\\customstyles.css",
+      "PackagePath": "staticwebassets\\css\\customstyles.css"
+    },
+    {
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\books.png",
+      "PackagePath": "staticwebassets\\imgs\\books.png"
+    },
+    {
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\digital-inventory.png",
+      "PackagePath": "staticwebassets\\imgs\\digital-inventory.png"
+    },
+    {
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\donate1.png",
+      "PackagePath": "staticwebassets\\imgs\\donate1.png"
+    },
+    {
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\home-bg.jpg",
+      "PackagePath": "staticwebassets\\imgs\\home-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\profile.png",
+      "PackagePath": "staticwebassets\\imgs\\profile.png"
+    },
+    {
+      "Id": "C:\\Users\\jbabcock\\source\\repos\\LibraryBookApp\\LibraryBookApp\\wwwroot\\imgs\\searchonl2.png",
+      "PackagePath": "staticwebassets\\imgs\\searchonl2.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.LibraryBookApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.LibraryBookApp.props",
+      "PackagePath": "build\\LibraryBookApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.LibraryBookApp.props",
+      "PackagePath": "buildMultiTargeting\\LibraryBookApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.LibraryBookApp.props",
+      "PackagePath": "buildTransitive\\LibraryBookApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

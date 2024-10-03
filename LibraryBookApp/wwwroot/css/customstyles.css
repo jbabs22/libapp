@@ -1,0 +1,39 @@
+﻿.nav-link {
+    color: blue;
+    text-decoration: none !important;
+}
+    
+    .nav-link:hover {
+        color: yellow;
+    }
+
+.navbar-brand {
+    color: blue;
+    text-decoration: none !important;
+}
+
+    .navbar-brand:hover {
+        color: yellow;
+    }
+
+#navbar {
+    background-color: lightgray;
+}    
+
+.footerlinks {
+    color: blue;
+    text-decoration: none !important;
+}
+
+    .footerlinks:hover {
+        color: yellow;
+    }
+
+#footer1 {
+    background: #b200ff;
+}
+
+.img-fluid {
+    height: auto;
+    width: 100%;
+}

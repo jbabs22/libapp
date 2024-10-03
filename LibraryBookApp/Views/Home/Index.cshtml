@@ -1,0 +1,56 @@
+@{
+    Layout = "_Layout";
+}
+
+<section>
+    <img src="~/imgs/home-bg.jpg" class="img-fluid" />
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <center>
+                    <h2>Features</h2>
+                </center>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <center>
+                    <a asp-controller="Books" asp-action="Index">
+                        <img width="150px" src="~/imgs/digital-inventory.png" />
+                    </a>
+                    <h4>Book Inventory</h4>
+                    <p class="text-justify">View Book Inventory</p>
+                </center>
+            </div>
+            <div class="col-md-4">
+                <center>
+                    <a asp-controller="Books" asp-action="Donate">
+                        <img width="150px" src="~/imgs/donate1.png" />
+                    </a>
+                    <h4>Donate Books</h4>
+                    <p class="text-justify">Donate new books</p>
+                </center>
+            </div>
+            <div class="col-md-4">
+                <center>
+                    <a asp-controller="Profile" asp-action="Index">
+                        <img width="150px" src="~/imgs/profile.png" />
+                    </a>
+                    <h4>Profile</h4>
+                    <p class="text-justify">View and edit your profile</p>
+                </center>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+@*
+<h1>Welcome to RFSLibrary</h1>
+<p>This is the home page.</p>
+*@

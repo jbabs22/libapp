@@ -1,0 +1,89 @@
+@model IEnumerable<LibraryBookApp.Models.Book>
+
+@{
+    ViewData["Title"] = "Books";
+}
+
+<h2>Books</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Borrowed By</th>
+            <th>Borrowed Date</th>
+            <th>Comments</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.Genre</td>
+                <td>@book.Borrower?.UserName</td>
+                <td>
+                    @if (book.BorrowedDate.HasValue)
+                    {
+                        <span>Borrowed on: @book.BorrowedDate.Value.ToString("MM/dd/yyyy")</span>
+                    }
+                    else
+                    {
+                        <span>Not borrowed</span>
+                    }
+                </td>
+                <td>
+                    <ul>
+                        @foreach (var comment in book.Comments)
+                        {
+                            <li><strong>@comment.User.UserName</strong>: @comment.Text (@comment.CreatedAt.ToString("g"))</li>
+                        }
+                    </ul>
+                    <form asp-action="Comment" method="post">
+                        <input type="hidden" name="bookId" value="@book.Id" />
+                        <input type="text" name="text" class="form-control" placeholder="Add a comment" />
+                        <button type="submit" class="btn btn-primary mt-2">Comment</button>
+                    </form>
+                </td>
+                <td>
+                    @if (!book.IsBorrowed)
+                    {
+                        <a asp-action="Borrow" asp-route-id="@book.Id" class="btn btn-primary">Borrow</a>
+                    }
+                    else if (book.BorrowerId == User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value)
+                    {
+                        <form asp-action="Return" asp-route-id="@book.Id" method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-danger">Return</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <span>Borrowed</span>
+                    }
+                    <a asp-action="Details" asp-route-id="@book.Id" class="btn btn-info">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Donate a Book</h2>
+<form asp-action="Donate" method="post">
+    <div class="form-group">
+        <label for="Title">Title</label>
+        <input type="text" name="Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Author">Author</label>
+        <input type="text" name="Author" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Genre">Genre</label>
+        <input type="text" name="Genre" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Donate</button>
+</form>
